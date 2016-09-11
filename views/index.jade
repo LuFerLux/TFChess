@@ -2,4 +2,6 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  h2 Bienvenido a #{title}
+  a(href="/users/login/", class='btn btn-success') Iniciar Sesión
+  a(href="/users/signup/" class='btn btn-primary') Registrarse
