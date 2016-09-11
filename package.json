@@ -2,7 +2,7 @@
   "name": "TFChess",
   "version": "0.0.0",
   "scripts": {
-    "start": "node app.js"
+    "start": "supervisor ./bin/www"
   },
   "author": "LuFerLux",
   "repository": {
